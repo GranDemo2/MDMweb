@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0f16"/>
+      <stop offset="1" stop-color="#04050a"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="52%" r="52%">
+      <stop offset="0" stop-color="#168bff" stop-opacity=".85"/>
+      <stop offset="40%" stop-color="#168bff" stop-opacity=".32"/>
+      <stop offset="100%" stop-color="#168bff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".55" stop-color="#d9e6f6"/>
+      <stop offset="1" stop-color="#9db8dc"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.1"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="13" fill="url(#bg)"/>
+  <ellipse cx="32" cy="33" rx="25" ry="19" fill="url(#halo)"/>
+  <g font-family="Montserrat,'Segoe UI',Arial,sans-serif" font-weight="800" font-size="23" text-anchor="middle">
+    <text x="32" y="41" fill="#168bff" filter="url(#glow)" opacity=".95">MDM</text>
+    <text x="32" y="41" fill="url(#metal)">MDM</text>
+  </g>
+  <rect x="1" y="1" width="62" height="62" rx="12" fill="none" stroke="#168bff" stroke-opacity=".38" stroke-width="1.4"/>
+</svg>

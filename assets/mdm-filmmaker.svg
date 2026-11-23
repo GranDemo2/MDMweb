@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="29.678661mm"
+   height="2.2548347mm"
+   viewBox="0 0 29.678661 2.2548347"
+   version="1.1"
+   inkscape:docname="Miguel_de_Mora_Tarjeta_Reverso_v02.svg"
+   id="svg19"
+   sodipodi:docname="MDM_Tarjeta_Reverso_v02.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="29.678661"
+       height="2.2548347"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs6">
+    <radialGradient
+       id="blueGlow"
+       cx="39.656902"
+       cy="32.819508"
+       r="45.810562"
+       gradientTransform="scale(1.2431631,0.80439967)"
+       fx="39.656902"
+       fy="32.819508"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#073b70"
+         stop-opacity="0.48"
+         id="stop1" />
+      <stop
+         offset="42%"
+         stop-color="#06264a"
+         stop-opacity="0.25"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#000000"
+         stop-opacity="0"
+         id="stop3" />
+    </radialGradient>
+    <pattern
+       id="mdmPattern"
+       patternUnits="userSpaceOnUse"
+       width="14.5"
+       height="7.2">
+      <g
+         transform="scale(0.1132) translate(-110.4,-97.6)"
+         id="g5">
+        <path
+           style="fill:#8d99a8;fill-opacity:0.25;stroke:none"
+           d="m 145.05781,111.42265 c 0,0 -5.15937,0 -5.15937,0 0,-4.37665 0,-8.7533 0,-13.129943 5.44035,0 14.41203,0 15.57449,0.08897 1.16247,0.08898 3.11707,0.925261 4.27746,1.674919 1.16039,0.74967 2.29588,1.74183 3.17231,2.95452 0.87644,1.21269 1.49379,2.64582 1.78042,4.16719 0.28663,1.52137 0.24254,3.13089 -0.19293,4.70738 -0.43547,1.57649 -1.26227,3.11986 -2.36472,4.36562 -1.10244,1.24575 -2.48046,2.19383 -3.83095,2.8112 -1.35049,0.61736 -2.67337,0.90398 -3.99629,1.19061 -4.78455,0 -9.5691,0 -14.35365,0 0,-1.66467 0,-3.32934 0,-4.99401 4.90582,0 13.20738,0 14.13548,-0.0848 0.9281,-0.0848 2.83093,-1.01759 3.69635,-1.87198 0.86541,-0.8544 1.47173,-2.01193 1.7308,-3.09783 0.25907,-1.08591 0.17088,-2.10012 -0.20396,-3.07027 -0.37483,-0.97015 -1.03627,-1.89617 -1.81901,-2.56866 -0.78273,-0.67248 -2.40935,-1.42628 -2.83176,-1.4683 -0.42241,-0.042 -6.37353,-0.042 -9.68082,-0.042 z"
+           inkscape:path-effect="#path-effect28"
+           sodipodi:nodetypes="ccccccccccccccccccccc"
+           inkscape:label="D"
+           inkscape:highlight-color="#fed900"
+           transform="translate(0.23151042)"
+           sodipodi:insensitive="true"
+           id="path3" />
+        <path
+           style="fill:#8d99a8;fill-opacity:0.25;stroke:none"
+           d="m 111.15406,98.315093 c 0,0 0,21.936147 0,21.936147 0,0 5.1917,0 5.1917,0 0,0 0,-14.40583 0,-14.40583 0,0 7.71741,7.71741 7.71741,7.71741 0,0 7.62386,-7.62386 7.62386,-7.62386 0,0 0,14.31228 0,14.31228 0,0 5.02801,0 5.02801,0 0,0 0,-21.959533 0,-21.959533 0,0 -5.02801,0 -5.02801,0 0,0 -7.67063,8.208513 -7.67063,8.208513 0,0 -7.65894,-8.173432 -7.65894,-8.173432 z"
+           inkscape:path-effect="#path-effect27"
+           sodipodi:nodetypes="ccccccccccccc"
+           inkscape:label="M"
+           inkscape:highlight-color="#fed900"
+           sodipodi:insensitive="true"
+           id="path4" />
+        <path
+           d="m 184.24043,98.276172 -7.67033,8.208798 -7.65897,-8.173658 -5.2033,-0.01189 v 2.811198 c 0.6461,0.55569 1.24995,1.19146 1.76475,1.90376 0.87644,1.21269 1.49414,2.64582 1.78077,4.16719 0.28663,1.52137 0.2422,3.13123 -0.19327,4.70772 -0.43546,1.57649 -1.26227,3.11987 -2.36471,4.36563 -0.30977,0.35003 -0.64098,0.67645 -0.98754,0.97875 v 3.00189 h 5.19142 v -14.40584 l 7.71736,7.71787 7.62382,-7.62434 v 14.31231 h 5.02812 V 98.276172 Z"
+           style="fill:#8d99a8;fill-opacity:0.25;stroke:none"
+           inkscape:label="M_Boolean"
+           inkscape:highlight-color="#fed900"
+           sodipodi:insensitive="true"
+           id="path5" />
+      </g>
+    </pattern>
+    <radialGradient
+       id="vignette"
+       cx="34.186985"
+       cy="34.186985"
+       r="51.280479"
+       gradientTransform="matrix(1.2431631,0,0,0.80439967,-27.769873,-31.745168)"
+       fx="34.186985"
+       fy="34.186985"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="45%"
+         stop-color="#000000"
+         stop-opacity="0"
+         id="stop5" />
+      <stop
+         offset="100%"
+         stop-color="#000000"
+         stop-opacity="0.55"
+         id="stop6" />
+    </radialGradient>
+  </defs>
+  <g
+     id="background"
+     inkscape:label="Fondo negro y resplandor azul"
+     transform="translate(-27.769873,-31.745168)">
+    <rect
+       x="0"
+       y="0"
+       width="85"
+       height="55"
+       fill="#050608"
+       id="rect6" />
+    <rect
+       x="0"
+       y="0"
+       width="85"
+       height="55"
+       fill="url(#blueGlow)"
+       id="rect7"
+       style="fill:url(#blueGlow)" />
+  </g>
+  <g
+     id="pattern"
+     inkscape:label="Patrón MDM tonal"
+     transform="translate(-27.769873,-31.745168)">
+    <rect
+       x="0"
+       y="0"
+       width="85"
+       height="55"
+       fill="url(#mdmPattern)"
+       id="rect8" />
+  </g>
+  <rect
+     id="vignetteLayer"
+     x="-27.769873"
+     y="-31.745167"
+     width="85"
+     height="55"
+     fill="url(#vignette)"
+     style="fill:url(#vignette)" />
+  <g
+     id="descriptor"
+     inkscape:label="Descriptor FILMMAKER y líneas azules"
+     transform="translate(-27.769873,-31.745168)">
+    <text
+       x="42.5"
+       y="34"
+       fill="#ffffff"
+       font-family="Montserrat, Arial, sans-serif"
+       font-size="3.15px"
+       font-weight="600"
+       letter-spacing="1.45"
+       text-anchor="middle"
+       id="text18"
+       style="display:inline"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Montserrat, Arial, sans-serif;-inkscape-font-specification:'Montserrat, Arial, sans-serif'"
+         id="tspan19">FILMMAKER</tspan></text>
+    <rect
+       x="12.5"
+       y="32.650002"
+       width="10.5"
+       height="0.31999999"
+       rx="0.16"
+       fill="#168bff"
+       id="rect18" />
+    <rect
+       x="62"
+       y="32.650002"
+       width="10.5"
+       height="0.31999999"
+       rx="0.16"
+       fill="#168bff"
+       id="rect19" />
+  </g>
+  <metadata
+     id="metadata19">Editable business-card reverse, 85 × 55 mm. Background, tonal MDM pattern, original wordmark paths, descriptor and blue accents are separate named layers. Replace or adjust typography as needed in Inkscape.</metadata>
+</svg>

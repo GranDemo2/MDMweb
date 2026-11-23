@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio — Miguel De Mora</title>
+  <meta name="description" content="Miguel de Mora Studio: servicios de vídeo, bodas, eventos, música, color y dron.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="mdm-mark" aria-hidden="true">
+    <img src="assets/mdm-marca.png" alt="">
+  </div>
+
+  <div class="bg" aria-hidden="true">
+    <span class="bg__follow"></span>
+    <span class="bg__pulse"></span>
+  </div>
+
+  <canvas id="dust" class="dust" aria-hidden="true"></canvas>
+
+  <!-- Chispas al hacer clic (canvas por encima del contenido) -->
+  <canvas id="bursts" aria-hidden="true"></canvas>
+
+  <a class="skip" href="#page">Saltar al contenido</a>
+
+  <main id="page">
+    <div class="wrap">
+
+      <section class="subhead">
+        <a class="brand-link" href="index.html" aria-label="Proyectos — volver a la página principal">
+          <img class="hero-logo" src="assets/mdm-logo.png" alt="Miguel De Mora">
+        </a>
+        <div class="tagline" aria-label="Studio">
+          <span class="line"></span>
+          <span class="word">Studio</span>
+          <span class="line"></span>
+        </div>
+        <p class="lede">Esto hago por ti, del guion al color final.</p>
+      </section>
+
+    </div>
+
+    <!-- Barra de navegación (bajo el logo, todas las páginas) -->
+    <header class="topbar">
+      <nav class="wrap topbar__nav" aria-label="Navegación principal">
+        <a href="index.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="studio.html" class="is-current">Studio</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+      </nav>
+    </header>
+
+    <div class="wrap">
+
+      <!-- Cabecera del estudio: mapa a la izquierda, texto y ubicación a la derecha -->
+      <div class="studio-top">
+        <div class="studio-top__map">
+          <img class="studio-map" src="assets/mapa-studio.svg" alt="Mapa aéreo — MDM Studio en Coslada, junto al aeropuerto Adolfo Suárez – Madrid">
+          <div class="studio-pin-card" aria-hidden="true">
+            <img src="assets/mdm-logo.png" alt="">
+          </div>
+        </div>
+        <div class="studio-top__info">
+          <h1>Studio</h1>
+          <p class="studio-top__lema">donde tus ideas cobran vida</p>
+          <a class="studio-loc" href="https://www.google.com/maps/search/?api=1&query=Avenida%20de%20Fuentemar%2020%2C%20Coslada%2C%2028823%2C%20Madrid%2C%20Espa%C3%B1a" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6-5.7-6-10a6 6 0 1 1 12 0c0 4.3-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/></svg>
+            Avenida de Fuentemar 20, Coslada 28823, Madrid
+          </a>
+        </div>
+      </div>
+
+      <!-- Servicios (filas alternadas: foto a un lado, texto al otro) -->
+      <section class="svc">
+        <div class="svc-photo"><span class="plus" aria-hidden="true">+</span></div>
+        <div class="svc-text">
+          <span class="n">01</span>
+          <h2>Bodas y celebraciones</h2>
+          <p>El día entero, sin que te des cuenta de que grabo. Un vídeo que se pueda ver mil veces.</p>
+          <p class="soon">Texto definitivo y fotos, próximamente.</p>
+        </div>
+      </section>
+
+      <section class="svc">
+        <div class="svc-photo"><span class="plus" aria-hidden="true">+</span></div>
+        <div class="svc-text">
+          <span class="n">02</span>
+          <h2>Vídeo corporativo y eventos</h2>
+          <p>Jornadas, presentaciones y resúmenes de eventos listos para compartir y publicar.</p>
+          <p class="soon">Texto definitivo y fotos, próximamente.</p>
+        </div>
+      </section>
+
+      <section class="svc">
+        <div class="svc-photo"><span class="plus" aria-hidden="true">+</span></div>
+        <div class="svc-text">
+          <span class="n">03</span>
+          <h2>Vídeos musicales</h2>
+          <p>De la idea al plano final: dirección, cámara y ritmo al servicio de la canción.</p>
+          <p class="soon">Texto definitivo y fotos, próximamente.</p>
+        </div>
+      </section>
+
+      <section class="svc">
+        <div class="svc-photo"><span class="plus" aria-hidden="true">+</span></div>
+        <div class="svc-text">
+          <span class="n">04</span>
+          <h2>Montaje y color</h2>
+          <p>Si ya tienes las tomas, las ordeno, corto y doy el color que necesita la historia.</p>
+          <p class="soon">Texto definitivo y fotos, próximamente.</p>
+        </div>
+      </section>
+
+      <section class="svc">
+        <div class="svc-photo"><span class="plus" aria-hidden="true">+</span></div>
+        <div class="svc-text">
+          <span class="n">05</span>
+          <h2>Tomas con dron</h2>
+          <p>Plano general y vistas que la cámara a pie no puede dar. Con licencias y seguro.</p>
+          <p class="soon">Texto definitivo y fotos, próximamente.</p>
+        </div>
+      </section>
+
+      <p style="margin-top:28px">
+        <a class="back-link" href="index.html">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+          Volver al inicio
+        </a>
+      </p>
+
+    </div>
+  </main>
+
+  <footer id="footer">
+    <div class="wrap">
+      <p class="who">Miguel De Mora · Filmmaker</p>
+      <a class="foot-legal" href="legal.html">Aviso legal</a>
+      <a class="yt" href="https://www.youtube.com/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"/></svg>
+        YouTube
+      </a>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

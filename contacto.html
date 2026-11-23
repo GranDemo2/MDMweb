@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto — Miguel De Mora</title>
+  <meta name="description" content="Contacta con Miguel De Mora, filmmaker: teléfono, email y enlaces directos.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="mdm-mark" aria-hidden="true">
+    <img src="assets/mdm-marca.png" alt="">
+  </div>
+
+  <div class="bg" aria-hidden="true">
+    <span class="bg__follow"></span>
+    <span class="bg__pulse"></span>
+  </div>
+
+  <canvas id="dust" class="dust" aria-hidden="true"></canvas>
+
+  <!-- Chispas al hacer clic (canvas por encima del contenido) -->
+  <canvas id="bursts" aria-hidden="true"></canvas>
+
+  <a class="skip" href="#page">Saltar al contenido</a>
+
+  <main id="page">
+    <div class="wrap">
+
+      <section class="subhead">
+        <a class="brand-link" href="index.html" aria-label="Proyectos — volver a la página principal">
+          <img class="hero-logo" src="assets/mdm-logo.png" alt="Miguel De Mora">
+        </a>
+        <div class="tagline" aria-label="Filmmaker">
+          <span class="line"></span>
+          <span class="word">Filmmaker</span>
+          <span class="line"></span>
+        </div>
+        <p class="lede">Hablemos. Te contesto rápido.</p>
+      </section>
+
+    </div>
+
+    <!-- Barra de navegación (bajo el logo, todas las páginas) -->
+    <header class="topbar">
+      <nav class="wrap topbar__nav" aria-label="Navegación principal">
+        <a href="index.html">Proyectos</a>
+        <a href="contacto.html" class="is-current">Contacto</a>
+        <a href="studio.html">Studio</a>
+        <a href="sobre-mi.html">Sobre mí</a>
+      </nav>
+    </header>
+
+    <div class="wrap">
+
+      <div class="contact-actions">
+
+        <!-- Email -->
+        <a class="cbtn" href="mailto:migueldemoramail@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          <span class="cbtn__label">Email</span>
+        </a>
+
+        <!-- Llamada -->
+        <a class="cbtn" href="tel:+34641208963" aria-label="Llamada">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h4l2 5-2.5 1.5a12 12 0 0 0 6 6L15 14l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 2 6a2 2 0 0 1 2-2z"/></svg>
+          <span class="cbtn__label">Llamada</span>
+        </a>
+
+        <!-- WhatsApp -->
+        <a class="cbtn" href="https://wa.me/34641208963" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path d="M8.5 8.5c.3 2.5 3.5 5.7 6 6l1.5-1.5-2-1.5-1 .5c-.8-.5-1.5-1.2-2-2l.5-1-1.5-2z"/></svg>
+          <span class="cbtn__label">WhatsApp</span>
+        </a>
+
+      </div>
+
+      <div class="contact-data">
+        <div class="cdata">
+          <span class="cdata__k">Email</span>
+          <a class="cdata__v" href="mailto:migueldemoramail@gmail.com">migueldemoramail@gmail.com</a>
+        </div>
+        <div class="cdata">
+          <span class="cdata__k">Móvil</span>
+          <a class="cdata__v" href="tel:+34641208963">+34 641 20 89 63</a>
+        </div>
+      </div>
+
+      <p style="margin-top:28px">
+        <a class="back-link" href="index.html">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+          Volver al inicio
+        </a>
+      </p>
+
+    </div>
+  </main>
+
+  <footer id="footer">
+    <div class="wrap">
+      <p class="who">Miguel De Mora · Filmmaker</p>
+      <a class="foot-legal" href="legal.html">Aviso legal</a>
+      <a class="yt" href="https://www.youtube.com/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"/></svg>
+        YouTube
+      </a>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

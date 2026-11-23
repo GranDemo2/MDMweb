@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="36%" r="78%">
+      <stop offset="0%" stop-color="#073b70" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#06264a" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="50%" cy="50%" r="72%">
+      <stop offset="52%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#050608"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g>
+      <rect x="70" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="165" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="260" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="355" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="450" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="545" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="640" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="735" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="830" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="925" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="1020" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="1115" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="1210" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="1305" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="1400" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="1495" y="40" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="70" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="165" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="260" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="355" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="450" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="545" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="640" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="735" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="830" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="925" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="1020" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="1115" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="1210" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="1305" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="1400" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+      <rect x="1495" y="824" width="46" height="36" rx="9" fill="#0d1322" stroke="#168bff" stroke-opacity="0.18" stroke-width="2"/>
+  </g>
+  <rect width="1600" height="900" fill="url(#vig)"/>
+  <circle cx="800" cy="440" r="92" fill="#050608" fill-opacity="0.35" stroke="#168bff" stroke-width="6"/>
+  <path d="M 776 394 L 858 440 L 776 486 Z" fill="#168bff"/>
+  <text x="800" y="628" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="38" font-weight="600" letter-spacing="14" fill="#8d99a8">PROYECTO 2 — PON AQUÍ TU GIF</text>
+  <text x="800" y="170" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="24" font-weight="500" letter-spacing="10" fill="#8d99a8" fill-opacity="0.6">MIGUEL DE MORA · FILMMAKER</text>
+</svg>
